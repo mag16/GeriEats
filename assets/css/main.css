@@ -1559,7 +1559,6 @@ input, select, textarea {
 			right: 40px;
 			top: 1px;
 			line-height: 84px;
-			text-transform: lowercase;
 			font-size: 1.3em;
 			letter-spacing: -1px;
 		}
@@ -1641,6 +1640,19 @@ input, select, textarea {
 		padding: 4em 0;
 	}
 
+	/* Font Awesome Footer Icons */
+		
+	#footer-icons {
+  	
+		  text-align: center;
+		  padding: 90px;
+	}
+	
+	#footer-icons #social-icons {
+		  display: flex;
+  		  justify-content: space-around;
+		  
+ 	}	
 /* Copyright */
 
 	#copyright {
@@ -1996,6 +2008,8 @@ input, select, textarea {
 			#footer-wrapper {
 				padding: 40px 0;
 			}
+
+		
 
 		/* Copyright */
 
