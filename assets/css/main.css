@@ -1767,9 +1767,19 @@ input, select, textarea {
 				padding: 6em 0;
 			}
 
+			#banner img[src="images/GE_480.png"]{
+				/* added to fix logo on iphone view */
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 80%;
+			}
+
 				#banner h2 {
 					font-size: 2.5em;
 				}
+
+				
 
 		/* Nav */
 
