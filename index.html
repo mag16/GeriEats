@@ -173,32 +173,51 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-8 col-12-medium">
-
 								<section>
-									<h2>Social Media Links</h2>
-									<div>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Suspendisse varius ipsum</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Vitae magna sed dolore</a></li>
-												</ul>
-											</div>
-											
-										</div>
-									</div>
+									<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+									
+									<script>
+										/* paste this in verbatim */
+										window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments); };
+
+										/* customize formbutton here*/
+										formbutton("create", {
+											action: "https://formspree.io/f/myybajrj",
+											title: "How can GeriEats help?",
+											fields: [
+												{
+													type: "email",
+													label: "Email:",
+													name: "email",
+													required: true,
+												},
+												{
+													type: "textarea",
+													label: "Message:",
+													name: "message",
+													placeholder: "How can we help?",
+												},
+												{ type: "submit" }
+											],
+											styles: {
+												modal: {
+													background: "#EEE"
+												},
+												input: {
+													border: "1px solid #CCC",
+													padding: "5px",
+													lineHeight: "1.25"
+												}, title: {
+													background: "#007b9d",
+												},
+												button: {
+													background: "#007b9d",
+												},
+												submitInput: { padding: "0.75em 1em" }
+											},
+											initiallyVisible: true
+										});
+									</script>
 								</section>
 
 							</div>
